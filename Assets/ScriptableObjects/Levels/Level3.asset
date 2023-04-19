@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722388ea3b9dda947bffceef0d266c81, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  LevelName: Level3
+  colorDatas:
+  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
+  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
+  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
+  - {fileID: 11400000, guid: ce211777a97f72b4f9b447613745706e, type: 2}
+  - {fileID: 11400000, guid: ce211777a97f72b4f9b447613745706e, type: 2}
+  - {fileID: 11400000, guid: ce211777a97f72b4f9b447613745706e, type: 2}
+  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
+  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
+  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}

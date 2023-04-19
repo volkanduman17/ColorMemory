@@ -21,15 +21,17 @@ public class CanvasManager : MonoBehaviour
     public Canvas Canvas;
     public Image ProgressBar;
     public TextMeshProUGUI TimerText;
+    public Image LevelImage;
 
-    private float timeLeft = 5f;
-    private float timerMax = 5f;
+    public float timeLeft = 5f;
+    public float timerMax = 5f;
     public bool isShowingCanvas = false;
 
     public void StartCanvas()
     {
          Canvas.enabled = true;
-        
+        LevelImage.sprite = LevelManager.Instance.LevelScriptables[LevelDataManager.Level - 1].image;
+
          ShowCanvasFor5Seconds();
            
        

@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelName: Level2
   colorDatas:
+  - {fileID: 11400000, guid: bedb9dd2795a4c34f85554bf9818c7fc, type: 2}
+  - {fileID: 11400000, guid: bedb9dd2795a4c34f85554bf9818c7fc, type: 2}
+  - {fileID: 11400000, guid: bedb9dd2795a4c34f85554bf9818c7fc, type: 2}
+  - {fileID: 11400000, guid: bedb9dd2795a4c34f85554bf9818c7fc, type: 2}
   - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
-  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
-  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
-  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
-  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
-  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
-  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
-  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
-  - {fileID: 11400000, guid: f195517365d00354bbcc62a1e57d840e, type: 2}
+  - {fileID: 11400000, guid: bedb9dd2795a4c34f85554bf9818c7fc, type: 2}
+  - {fileID: 11400000, guid: bedb9dd2795a4c34f85554bf9818c7fc, type: 2}
+  - {fileID: 11400000, guid: bedb9dd2795a4c34f85554bf9818c7fc, type: 2}
+  - {fileID: 11400000, guid: bedb9dd2795a4c34f85554bf9818c7fc, type: 2}
+  image: {fileID: 21300000, guid: ba1979a91711d7c41b7591f1a8e00cda, type: 3}

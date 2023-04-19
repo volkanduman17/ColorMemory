@@ -18,4 +18,17 @@ public class ButtonController : MonoBehaviour
         
         levelShowCanvas.SetActive(true);
     }
+
+    public void OnClickNextButton()
+    {
+        LevelDataManager.Level++;
+        CanvasManager.Instance.StartCanvas();
+        CanvasManager.Instance.isShowingCanvas = true;
+        CanvasManager.Instance.ShowCanvas();
+        CanvasManager.Instance.isShowingCanvas = true;
+
+        gameObject.SetActive(false);
+
+        levelShowCanvas.SetActive(true);
+    }
 }

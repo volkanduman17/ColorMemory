@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class CanvasManager : MonoBehaviour
 {
@@ -72,6 +74,8 @@ public class CanvasManager : MonoBehaviour
         // Canvas'ý gizle
         Canvas.enabled = false;
         isShowingCanvas = false;
+        // SceneManager.LoadScene("SampleScene");
+
     }
 
     // Örneðin start fonksiyonunda bu metod çaðrýlabilir
@@ -79,6 +83,7 @@ public class CanvasManager : MonoBehaviour
     {
         ShowCanvas();
         Invoke("HideCanvas", 5f);
+
     }
 
 }

@@ -23,7 +23,6 @@ public class LevelManager : MonoBehaviour
 
     public GameObject YouWinCanvas;
 
-
     public void CheckLevelControl()
     {
         int trueSquares = 0;
@@ -39,6 +38,12 @@ public class LevelManager : MonoBehaviour
         {
             Debug.Log("All squares are true");
             YouWinCanvas.SetActive(true);
+            
+
+            if (LevelDataManager.Level == LevelScriptables.Length)
+            {
+                LevelDataManager.Level = 0;
+            }
         }
         else
         {

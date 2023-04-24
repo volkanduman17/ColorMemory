@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Tutorial : MonoBehaviour
 {
-
+    public GameObject Colors;
     public GameObject TutorialUI;
     public GameObject Hand;
     public GameObject Infinity;
@@ -71,12 +71,14 @@ public class Tutorial : MonoBehaviour
             if (trueRed == 9)
             {
                 TutorialAnimator.SetBool("isPaintRedFinish", true);
-
-            }
-        if (LevelDataManager.Level == 2)
-        {
-            TutorialUI.SetActive(false);
+                Colors.SetActive(false);
         }
+
+            if (LevelDataManager.Level == 2)
+            {
+                TutorialUI.SetActive(false);
+                Colors.SetActive(true);
+            }
     
     }
        

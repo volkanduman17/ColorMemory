@@ -39,6 +39,7 @@ public class LevelManager : MonoBehaviour
         {
             Debug.Log("All squares are true");
             YouWinCanvas.SetActive(true);
+              
             
 
             if (LevelDataManager.Level == LevelScriptables.Length)

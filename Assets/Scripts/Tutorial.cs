@@ -40,37 +40,44 @@ public class Tutorial : MonoBehaviour
 
     private void Update()
     {
-        if (playerMovement.animator.GetBool("isWalking"))
-        {
-            TutorialAnimator.SetBool("isMovementFinish", true);
-            Hand.SetActive(false);
-            Infinity.SetActive(false);
-            Arrow.SetActive(true);
-        }
-
-
-        if (playerColorController.colordata.ID == "0")
-        {
-            TutorialAnimator.SetBool("isGetRedFinish", true);
-        }
-
-
-        int trueRed = 0;
-
-        for (int i = 0; i < 9; i++)
-        {
-            if (LevelManager.Instance.Squares[i].GetComponent<MeshRenderer>().material.color == colorData.mat.color)
+        
+            if (playerMovement.animator.GetBool("isWalking"))
             {
-                trueRed ++;
+                TutorialAnimator.SetBool("isMovementFinish", true);
+                Hand.SetActive(false);
+                Infinity.SetActive(false);
+                Arrow.SetActive(true);
+            }
+
+
+            if (playerColorController.colordata.ID == "0")
+            {
+                TutorialAnimator.SetBool("isGetRedFinish", true);
+            }
+
+
+            int trueRed = 0;
+
+            for (int i = 0; i < 9; i++)
+            {
+                if (LevelManager.Instance.Squares[i].GetComponent<MeshRenderer>().material.color == colorData.mat.color)
+                {
+                    trueRed++;
+
+                }
+            }
+
+
+            if (trueRed == 9)
+            {
+                TutorialAnimator.SetBool("isPaintRedFinish", true);
 
             }
-        }
-
-
-        if (trueRed==9)
+        if (LevelDataManager.Level == 2)
         {
-            TutorialAnimator.SetBool("isPaintRedFinish", true);
-
+            TutorialUI.SetActive(false);
         }
+    
     }
+       
 }

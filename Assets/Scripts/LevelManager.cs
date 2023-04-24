@@ -5,6 +5,8 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
+    public int trueSquares = 0;
+
 
     private void Awake()
     {
@@ -25,7 +27,6 @@ public class LevelManager : MonoBehaviour
 
     public void CheckLevelControl()
     {
-        int trueSquares = 0;
         for (int i = 0; i < Squares.Length; i++)
         {
             if (LevelScriptables[LevelDataManager.Level - 1].colorDatas[i] == Squares[i].GetComponent<SquareController>().colorData)

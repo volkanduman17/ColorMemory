@@ -14,7 +14,6 @@ public class UILevelController : MonoBehaviour
     void Update()
     {
         LevelText.text = "Level: " + LevelDataManager.Level.ToString();
-
     }
 
 }

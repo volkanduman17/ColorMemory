@@ -354,7 +354,6 @@ MonoBehaviour:
   - {fileID: 693619886}
   - {fileID: 1797576107}
   - {fileID: 660174268}
-  trueSquare: 0
   YouWinCanvas: {fileID: 1912764815}
 --- !u!1 &90832134
 GameObject:
@@ -1650,36 +1649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorData: {fileID: 0}
---- !u!1 &528977987
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 528977988}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &528977988
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528977987}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.26086962, y: -1.268841, z: -40.35}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &578199378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,7 +1952,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2939,7 +2908,7 @@ RectTransform:
   - {fileID: 792812921}
   - {fileID: 395537929}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3526,7 +3495,7 @@ RectTransform:
   m_Children:
   - {fileID: 1799646502}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3545,7 +3514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369c5897e81ff4e409ec15b51091b209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelShowCanvas: {fileID: 989307561}
+  LevelShowCanvas: {fileID: 989307561}
 --- !u!1 &1220389795
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,7 +4917,7 @@ Transform:
   - {fileID: 1508155285}
   - {fileID: 1327548368}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1706318557
 GameObject:
@@ -5044,7 +5013,7 @@ RectTransform:
   m_Children:
   - {fileID: 1021411979}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5827,7 +5796,7 @@ RectTransform:
   m_Children:
   - {fileID: 1022802852}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5846,7 +5815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369c5897e81ff4e409ec15b51091b209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelShowCanvas: {fileID: 989307561}
+  LevelShowCanvas: {fileID: 989307561}
 --- !u!1 &2096679745
 GameObject:
   m_ObjectHideFlags: 0

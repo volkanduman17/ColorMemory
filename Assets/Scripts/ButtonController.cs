@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
 {
-    public GameObject levelShowCanvas;
+    public GameObject LevelShowCanvas;
     public void OnClickPlayButton()
     {
 
@@ -16,7 +16,7 @@ public class ButtonController : MonoBehaviour
 
         gameObject.SetActive(false);
         
-        levelShowCanvas.SetActive(true);
+        LevelShowCanvas.SetActive(true);
     }
 
     public void OnClickNextButton()
@@ -29,7 +29,7 @@ public class ButtonController : MonoBehaviour
 
         gameObject.SetActive(false);
 
-        levelShowCanvas.SetActive(true);
+        LevelShowCanvas.SetActive(true);
 
         for (int i = 0; i < 9; i++)
         {

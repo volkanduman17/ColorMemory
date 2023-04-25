@@ -21,7 +21,6 @@ public class LevelManager : MonoBehaviour
 
     public Levels[] LevelScriptables;
     public GameObject[] Squares = new GameObject[9];
-    //[SerializeField] private int trueSquare = 0;
 
     public GameObject YouWinCanvas;
 

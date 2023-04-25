@@ -14,7 +14,7 @@ public class TopLeftImage : MonoBehaviour
 
     void Update()
     {
-        ShowTopLeftImage();
+        //ShowTopLeftImage();
     }
 
     public void ShowTopLeftImage()

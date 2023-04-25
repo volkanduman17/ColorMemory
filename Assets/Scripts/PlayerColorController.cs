@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerColorController : MonoBehaviour
 {
     public ColorData colordata;
-    public SkinnedMeshRenderer renderer;
+    public SkinnedMeshRenderer skinnedrenderer;
 
     public void InýtializeColorData(ColorData data)
     {
         colordata = data;
-        renderer.material = data.mat;
+        skinnedrenderer.material = data.mat;
     }
 }

@@ -11,10 +11,10 @@ public class ButtonController : MonoBehaviour
 
     public void OnClickPlayButton()
     {
-        CanvasManager.Instance.StartCanvas();
-        CanvasManager.Instance.isShowingCanvas = true;
-        CanvasManager.Instance.ShowCanvas();
-        CanvasManager.Instance.isShowingCanvas = true;
+        LevelShowCanvasManager.Instance.StartCanvas();
+        LevelShowCanvasManager.Instance.isShowingCanvas = true;
+        LevelShowCanvasManager.Instance.ShowCanvas();
+        LevelShowCanvasManager.Instance.isShowingCanvas = true;
         topLeftImage.ShowTopLeftImage();
         gameObject.SetActive(false);        
         LevelShowCanvas.SetActive(true);
@@ -23,10 +23,10 @@ public class ButtonController : MonoBehaviour
     public void OnClickNextButton()
     {
         LevelDataManager.Level++;
-        CanvasManager.Instance.StartCanvas();
-        CanvasManager.Instance.isShowingCanvas = true;
-        CanvasManager.Instance.ShowCanvas();
-        CanvasManager.Instance.isShowingCanvas = true;
+        LevelShowCanvasManager.Instance.StartCanvas();
+        LevelShowCanvasManager.Instance.isShowingCanvas = true;
+        LevelShowCanvasManager.Instance.ShowCanvas();
+        LevelShowCanvasManager.Instance.isShowingCanvas = true;
         LevelManager.Instance.trueSquares = 0;
         topLeftImage.ShowTopLeftImage();
         gameObject.SetActive(false);

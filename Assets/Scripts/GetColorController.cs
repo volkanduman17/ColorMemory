@@ -5,11 +5,8 @@ using UnityEngine;
 public class GetColorController : MonoBehaviour
 {
 
-  //  public MeshRenderer squareRenderer;
-  //  public SkinnedMeshRenderer PlayerRenderer;
     private PlayerColorController playerColorController;
     private SquareController squareController;
-    //public GameObject player;
 
     private void Start()
     {

@@ -7,10 +7,6 @@ public class TopLeftImage : MonoBehaviour
 {
     public Image TopLeftImg;
 
-    void Start()
-    {
-        
-    }
 
     void Update()
     {

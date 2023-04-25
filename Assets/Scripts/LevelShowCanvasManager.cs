@@ -6,9 +6,9 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 
-public class CanvasManager : MonoBehaviour
+public class LevelShowCanvasManager : MonoBehaviour
 {
-    public static CanvasManager Instance;
+    public static LevelShowCanvasManager Instance;
 
     private void Awake()
     {

@@ -50,6 +50,7 @@ public class LevelManager : MonoBehaviour
         else
         {
             Debug.Log("Not yet");
+            trueSquares = 0;
         }
     }
 

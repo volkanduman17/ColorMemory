@@ -11,6 +11,7 @@ public class ButtonController : MonoBehaviour
 
     public void OnClickPlayButton()
     {
+        UILevelController.Instance.ShowLevelText();
         LevelShowCanvasManager.Instance.StartCanvas();
         LevelShowCanvasManager.Instance.isShowingCanvas = true;
         LevelShowCanvasManager.Instance.ShowCanvas();
@@ -22,7 +23,10 @@ public class ButtonController : MonoBehaviour
 
     public void OnClickNextButton()
     {
+
         LevelDataManager.Level++;
+        UILevelController.Instance.ShowLevelText();
+
         LevelShowCanvasManager.Instance.StartCanvas();
         LevelShowCanvasManager.Instance.isShowingCanvas = true;
         LevelShowCanvasManager.Instance.ShowCanvas();

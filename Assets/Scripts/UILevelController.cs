@@ -8,12 +8,25 @@ public class UILevelController : MonoBehaviour
 {
     public TextMeshProUGUI LevelText;
 
+    public static UILevelController Instance;
 
 
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            Destroy(this);
+            return;
+        }
+        Instance = this;
+    }
 
-    void Update()
+
+    public void ShowLevelText()
     {
         LevelText.text = "Level: " + LevelDataManager.Level.ToString();
     }
+
+
 
 }

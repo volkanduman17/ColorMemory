@@ -26,6 +26,7 @@ public class ButtonController : MonoBehaviour
         CanvasManager.Instance.isShowingCanvas = true;
         CanvasManager.Instance.ShowCanvas();
         CanvasManager.Instance.isShowingCanvas = true;
+        LevelManager.Instance.trueSquares = 0;
 
         gameObject.SetActive(false);
 

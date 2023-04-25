@@ -8,9 +8,6 @@ public class ButtonController : MonoBehaviour
     public TopLeftImage topLeftImage;
     public GameObject LevelShowCanvas;
 
-    private void Start()
-    {
-    }
 
     public void OnClickPlayButton()
     {

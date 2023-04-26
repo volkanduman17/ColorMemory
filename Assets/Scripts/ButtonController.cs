@@ -8,7 +8,6 @@ public class ButtonController : MonoBehaviour
     public TopLeftImage topLeftImage;
     public GameObject LevelShowCanvas;
 
-
     public void OnClickPlayButton()
     {
         UILevelController.Instance.ShowLevelText();
@@ -26,7 +25,6 @@ public class ButtonController : MonoBehaviour
 
         LevelDataManager.Level++;
         UILevelController.Instance.ShowLevelText();
-
         LevelShowCanvasManager.Instance.StartCanvas();
         LevelShowCanvasManager.Instance.isShowingCanvas = true;
         LevelShowCanvasManager.Instance.ShowCanvas();

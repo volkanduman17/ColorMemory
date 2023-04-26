@@ -8,12 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public DynamicJoystick dynamicJoystick;
     public Rigidbody rb;
     public Animator animator;
-
-    private void Start()
-    {
-        //animator=GetComponent<Animator>();
-    }
-
+    
     public void FixedUpdate()
     {
         Vector3 direction = Vector3.forward * dynamicJoystick.Vertical + Vector3.right * dynamicJoystick.Horizontal;

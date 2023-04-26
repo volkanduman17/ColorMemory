@@ -7,7 +7,6 @@ public class LevelManager : MonoBehaviour
     public static LevelManager Instance;
     public int trueSquares = 0;
 
-
     private void Awake()
     {
         if (Instance != null)
@@ -21,7 +20,6 @@ public class LevelManager : MonoBehaviour
 
     public Levels[] LevelScriptables;
     public GameObject[] Squares = new GameObject[9];
-
     public GameObject YouWinCanvas;
 
     public void CheckLevelControl()

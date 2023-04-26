@@ -7,10 +7,6 @@ public class SquareController : MonoBehaviour
     private MeshRenderer meshRenderer;
     public ColorData colorData;
 
-    private void Start()
-    {
-        //meshRenderer = GetComponent<MeshRenderer>();
-    }
 
     public void Initialize(ColorData data)
     {

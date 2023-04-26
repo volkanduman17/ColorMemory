@@ -37,7 +37,6 @@ public class Tutorial : MonoBehaviour
         }
     }
 
-
     private void Update()
     {
         
@@ -63,7 +62,6 @@ public class Tutorial : MonoBehaviour
                 if (LevelManager.Instance.Squares[i].GetComponent<MeshRenderer>().material.color == colorData.mat.color)
                 {
                     trueRed++;
-
                 }
             }
 
@@ -72,14 +70,12 @@ public class Tutorial : MonoBehaviour
             {
                 TutorialAnimator.SetBool("isPaintRedFinish", true);
                 Colors.SetActive(false);
-        }
+            }
 
             if (LevelDataManager.Level == 2)
             {
                 TutorialUI.SetActive(false);
                 Colors.SetActive(true);
             }
-    
-    }
-       
+    }      
 }

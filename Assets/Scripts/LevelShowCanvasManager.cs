@@ -32,11 +32,9 @@ public class LevelShowCanvasManager : MonoBehaviour
     public void StartCanvas()
     {
          Canvas.enabled = true;
-        LevelImage.sprite = LevelManager.Instance.LevelScriptables[LevelDataManager.Level - 1].image;
+         LevelImage.sprite = LevelManager.Instance.LevelScriptables[LevelDataManager.Level - 1].image;
 
-         ShowCanvasFor5Seconds();
-           
-       
+         ShowCanvasFor5Seconds();      
     }
 
     private void Update()
@@ -62,7 +60,6 @@ public class LevelShowCanvasManager : MonoBehaviour
         // Canvas'ý göster
         Canvas.enabled = true;
         isShowingCanvas = true;
-
         // Geri sayým için deðiþkenleri ayarla
         timeLeft = timerMax;
         TimerText.text = Mathf.RoundToInt(timeLeft).ToString();
@@ -77,13 +74,9 @@ public class LevelShowCanvasManager : MonoBehaviour
         // SceneManager.LoadScene("SampleScene");
 
     }
-
-    // Örneðin start fonksiyonunda bu metod çaðrýlabilir
     public void ShowCanvasFor5Seconds()
     {
         ShowCanvas();
         Invoke("HideCanvas", 5f);
-
     }
-
 }

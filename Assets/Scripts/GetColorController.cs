@@ -20,14 +20,12 @@ public class GetColorController : MonoBehaviour
         {
             ColorData data = other.gameObject.GetComponent<ColorContainer>().colorData;
             playerColorController.InýtializeColorData(data);
-
         }
 
         if (other.gameObject.CompareTag("Square"))
         {
             ColorData data = playerColorController.colordata;
-            other.gameObject.GetComponent<SquareController>().Initialize(data);
-            // kare her boyandýðýnda             
+            other.gameObject.GetComponent<SquareController>().Initialize(data); // kare her boyandýðýnda             
         }
     }
 }

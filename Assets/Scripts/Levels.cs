@@ -4,11 +4,9 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "newLevel")]
 
-
 public class Levels : ScriptableObject
 {
     public string LevelName;
     public ColorData[] colorDatas = new ColorData[9];
-    public Sprite image;
-    
+    public Sprite image;   
 }

@@ -7,7 +7,6 @@ using TMPro;
 public class UILevelController : MonoBehaviour
 {
     public TextMeshProUGUI LevelText;
-
     public static UILevelController Instance;
 
 
@@ -21,12 +20,8 @@ public class UILevelController : MonoBehaviour
         Instance = this;
     }
 
-
     public void ShowLevelText()
     {
         LevelText.text = "Level: " + LevelDataManager.Level.ToString();
     }
-
-
-
 }
